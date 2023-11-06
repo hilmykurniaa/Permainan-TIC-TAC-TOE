@@ -93,7 +93,7 @@ Kode ini untuk membuat jendela utama dengan judul "Tic-Tac-Toe".
 
 Kode ini menghasilkan sebuah papan permainan 3x3 yang terdiri dari tombol-tombol yang dapat diaktifkan dengan mengkliknya. Setiap tombol awalnya tidak memiliki teks, dan mereka diberikan pengaturan menggunakan fungsi on_click() untuk menangani tindakan klik.
 
-# Membuat tombol reset
+    # Membuat tombol reset
     reset_button = tk.Button(root, text="Reset Game", font=("normal", 16), command=reset_game)
     reset_button.grid(row=3, columnspan=3)
 
